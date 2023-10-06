@@ -7,8 +7,8 @@ namespace EntityLayer.Concrete
 	{
         [Key]
         public int ServiceId { get; set; }
-        public string Title { get; set; }
-        public string ImageUrl { get; set; }
+        public string? Title { get; set; }
+        public string? ImageUrl { get; set; }
         public bool ServiceStatus { get; set; }
     }
 }

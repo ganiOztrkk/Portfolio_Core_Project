@@ -2954,11 +2954,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gani/Desktop/Github/PortfolioCoreProject/PortfolioCoreProject/PortfolioCoreProject.csproj",
+      "projectUniqueName": "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/PortfolioCoreProject.csproj",
       "projectName": "PortfolioCoreProject",
-      "projectPath": "/Users/gani/Desktop/Github/PortfolioCoreProject/PortfolioCoreProject/PortfolioCoreProject.csproj",
+      "projectPath": "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/PortfolioCoreProject.csproj",
       "packagesPath": "/Users/gani/.nuget/packages/",
-      "outputPath": "/Users/gani/Desktop/Github/PortfolioCoreProject/PortfolioCoreProject/obj/",
+      "outputPath": "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gani/.nuget/NuGet/NuGet.Config"
@@ -2973,14 +2973,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/gani/Desktop/Github/PortfolioCoreProject/BusinessLayer/BusinessLayer.csproj": {
-              "projectPath": "/Users/gani/Desktop/Github/PortfolioCoreProject/BusinessLayer/BusinessLayer.csproj"
+            "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/BusinessLayer/BusinessLayer.csproj": {
+              "projectPath": "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/BusinessLayer/BusinessLayer.csproj"
             },
-            "/Users/gani/Desktop/Github/PortfolioCoreProject/DataAccessLayer/DataAccessLayer.csproj": {
-              "projectPath": "/Users/gani/Desktop/Github/PortfolioCoreProject/DataAccessLayer/DataAccessLayer.csproj"
+            "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/DataAccessLayer/DataAccessLayer.csproj": {
+              "projectPath": "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/DataAccessLayer/DataAccessLayer.csproj"
             },
-            "/Users/gani/Desktop/Github/PortfolioCoreProject/EntityLayer/EntityLayer.csproj": {
-              "projectPath": "/Users/gani/Desktop/Github/PortfolioCoreProject/EntityLayer/EntityLayer.csproj"
+            "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/EntityLayer/EntityLayer.csproj": {
+              "projectPath": "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/EntityLayer/EntityLayer.csproj"
             }
           }
         }

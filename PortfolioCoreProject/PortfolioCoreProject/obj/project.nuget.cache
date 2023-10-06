@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+LEJ21EMGeLyBpjc4SM5pZSB42UOFxvcEhPn6Fb0uIXxKQsObkMR17tYmJ+N2IJTXoSynD+75d8Ym2fe+TUMqQ==",
+  "dgSpecHash": "/DNZx+gwmU1m0eQ0+6MtwldqA8w1+hv1Tg/rXHR3MEmjeK8nOsccQ6efti5XiGmB/UjKBR/J2JEMBb4C3vw//g==",
   "success": true,
-  "projectFilePath": "/Users/gani/Desktop/Github/PortfolioCoreProject/PortfolioCoreProject/PortfolioCoreProject.csproj",
+  "projectFilePath": "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/PortfolioCoreProject.csproj",
   "expectedPackageFiles": [
     "/Users/gani/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/gani/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

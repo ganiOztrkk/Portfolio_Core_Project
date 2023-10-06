@@ -1,31 +1,23 @@
 ﻿<Properties StartupConfiguration="{A6072608-8EFA-41D9-ABE3-9E65042C9C71}|https">
-  <MonoDevelop.Ide.ItemProperties.BusinessLayer FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/Concrete/Context.cs">
-    <Files>
-      <File FileName="DataAccessLayer/Concrete/Context.cs" Line="16" Column="59" />
-    </Files>
+  <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PortfolioCoreProject" expanded="True">
-            <Node name="DataAccessLayer" expanded="True">
+            <Node name="DataAccessLayer" expanded="True" selected="True">
               <Node name="Concrete" expanded="True" />
-              <Node name="Migrations" expanded="True" />
             </Node>
-            <Node name="EntityLayer" expanded="True" />
-            <Node name="PortfolioCoreProject" selected="True" />
+            <Node name="PortfolioCoreProject" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DataAccessLayer FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.EntityLayer FirstBuild="True" />
 </Properties>
