@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Experience>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_AdminLayout";
+}
+
+<div class="card-header border-0">
+    <h3>Experience List Table</h3>
+</div>
+<div class="table-responsive">
+    <table class="table align-items-center table-flush">
+        <thead class="thead-light">
+            <tr class="text-center">
+                <th scope="col" class="sort" data-sort="title">Name</th>
+                <th scope="col" class="sort" data-sort="value">Date</th>
+                <th scope="col" class="sort" data-sort="completion">Description</th>
+                <th scope="col" class="sort" data-sort="completion">Delete</th>
+                <th scope="col" class="sort" data-sort="completion">Update</th>
+                <th scope="col" class="sort" data-sort="completion">Passive</th>
+            </tr>
+        </thead>
+        <tbody class="list">
+            @foreach (var item in Model)
+            {
+                <tr class="text-center">
+                    <th scope="row">
+                        <div class="media align-items-center">
+                            <a href="#" class="avatar rounded-circle mr-3">
+                                <img alt="Image placeholder" src="@item.ImageUrl">
+                            </a>
+                            <div class="media-body">
+                                <span class="name mb-0 text-sm">@item.Name</span>
+                            </div>
+                        </div>
+                    </th>
+                    <td>@item.Date</td>
+                    <td>@item.Description</td>
+                    <td><a href="/Experience/DeleteExperience/@item.ExperienceId" class="btn btn-md btn-danger">Delete</a></td>
+                    <td><a href="/Experience/UpdateExperience/@item.ExperienceId" class="btn btn-md btn-default">Update</a></td>
+                    <td><a href="/Experience/PassiveExperience/@item.ExperienceId" class="btn btn-md btn-warning">Passive</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Experience/AddExperience/" class="btn btn-primary mb-2">Add New Experience</a>
+</div>

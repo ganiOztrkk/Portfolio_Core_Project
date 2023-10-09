@@ -55,6 +55,7 @@
     <None Remove="Views\Feature\" />
     <None Remove="Views\Admin\" />
     <None Remove="Views\Skill\" />
+    <None Remove="Views\Experience\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
@@ -79,6 +80,7 @@
     <Folder Include="Views\Feature\" />
     <Folder Include="Views\Admin\" />
     <Folder Include="Views\Skill\" />
+    <Folder Include="Views\Experience\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\argon-dashboard-master\.github\workflows\main.yml" />

@@ -17,6 +17,9 @@ builder.Services.AddScoped<IContactDal, EfContactDal>();
 builder.Services.AddScoped<IFeatureService, FeatureManager>();
 builder.Services.AddScoped<IFeatureDal, EfFeatureDal>();
 
+builder.Services.AddScoped<IExperienceService, ExperienceManager>();
+builder.Services.AddScoped<IExperienceDal, EfExperienceDal>();
+
 builder.Services.AddScoped<IMessageService, MessageManager>();
 builder.Services.AddScoped<IMessageDal, EfMessageDal>();
 
@@ -54,7 +57,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Skill}/{action=Index}/{id?}");
+    pattern: "{controller=Experience}/{action=Index}/{id?}");
 
 app.Run();
 
