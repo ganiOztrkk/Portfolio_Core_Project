@@ -8,7 +8,12 @@ namespace PortfolioCoreProject.ViewComponents.Contact
 {
 	public class ContactDetails : ViewComponent
 	{
-        private readonly IContactService _contactService = new ContactManager(new EfContactDal());
+        private readonly IContactService _contactService;
+
+        public ContactDetails(IContactService contactService)
+        {
+            _contactService = contactService;
+        }
 
         public IViewComponentResult Invoke()
         {

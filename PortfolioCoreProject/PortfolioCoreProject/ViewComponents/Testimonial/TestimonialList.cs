@@ -8,7 +8,12 @@ namespace PortfolioCoreProject.ViewComponents.Testimonial
 {
 	public class TestimonialList : ViewComponent
 	{
-        private readonly ITestimonialService _testimonialService = new TestimonialManager(new EfTestimonialDal());
+        private readonly ITestimonialService _testimonialService;
+
+        public TestimonialList(ITestimonialService testimonialService)
+        {
+            _testimonialService = testimonialService;
+        }
 
         public IViewComponentResult Invoke()
         {

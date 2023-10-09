@@ -1,0 +1,53 @@
+@model IEnumerable<Skill>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_AdminLayout";
+}
+
+<div class="card-header border-0">
+    <h3 class="mb-0">Skill List Table</h3>
+</div>
+<div class="table-responsive">
+    <table class="table align-items-center table-flush">
+        <thead class="thead-light">
+            <tr class="text-center">
+                <th scope="col" class="sort" data-sort="title">Title</th>
+                <th scope="col" class="sort" data-sort="value">Value</th>
+                <th scope="col" class="sort" data-sort="completion">Delete</th>
+                <th scope="col" class="sort" data-sort="completion">Update</th>
+                <th scope="col" class="sort" data-sort="completion">Passive</th>
+            </tr>
+        </thead>
+        <tbody class="list">
+            @foreach (var item in Model)
+            {
+                <tr class="text-center">
+                    <th scope="row">
+                        <div class="media align-items-center">
+                            <a href="#" class="avatar rounded-circle mr-3">
+                                <img alt="Image placeholder" src="@item.SkillImageUrl">
+                            </a>
+                            <div class="media-body">
+                                <span class="name mb-0 text-sm">@item.Title</span>
+                            </div>
+                        </div>
+                    </th>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <span class="completion mr-2">@item.Value%</span>
+                            <div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" aria-valuenow="@item.Value" aria-valuemin="0" aria-valuemax="100" style="width: @item.Value%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><a href="/Skill/DeleteSkill/@item.SkillId" class="btn btn-md btn-danger">Delete</a></td>
+                    <td><a href="/Skill/UpdateSkill/@item.SkillId" class="btn btn-md btn-default">Update</a></td>
+                    <td><a href="/Skill/PassiveSkill/@item.SkillId" class="btn btn-md btn-warning">Passive</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Skill/AddSkill/" class="btn btn-primary mb-2">Add New Skill</a>
+</div>

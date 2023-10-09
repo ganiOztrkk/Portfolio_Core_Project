@@ -26,3 +26,4 @@
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.pdb
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.genruntimeconfig.cache
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/EntityLayer/obj/Debug/net7.0/ref/EntityLayer.dll
+/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.sourcelink.json

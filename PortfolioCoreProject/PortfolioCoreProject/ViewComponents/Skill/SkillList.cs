@@ -8,7 +8,12 @@ namespace PortfolioCoreProject.ViewComponents.Skill
 {
 	public class SkillList : ViewComponent
 	{
-        private readonly ISkillService _skillService = new SkillManager(new EfSkillDal());
+        private readonly ISkillService _skillService;
+
+        public SkillList(ISkillService skillService)
+        {
+            _skillService = skillService;
+        }
 
         public IViewComponentResult Invoke()
         {

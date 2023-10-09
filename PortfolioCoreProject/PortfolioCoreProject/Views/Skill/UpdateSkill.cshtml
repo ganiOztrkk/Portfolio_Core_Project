@@ -1,0 +1,21 @@
+﻿@model Skill
+@{
+    Layout = "_AdminLayout";
+}
+<br />
+<div class="container">
+    <form method="post" asp-controller="Skill" asp-action="UpdateSkill">
+        <input type="hidden" asp-for="SkillId" />
+        <input type="hidden" asp-for="SkillStatus" />
+        <label style="color: white">Skill Title</label>
+        <input class="form-control" type="text" asp-for="Title" required />
+        <br />
+        <label>Skill Value</label>
+        <input class="form-control" type="text" asp-for="Value" required />
+        <br />
+        <label>Skill Image Url</label>
+        <input class="form-control" type="text" asp-for="SkillImageUrl" />
+        <br />
+        <button class="btn btn-success">Update</button>
+    </form>
+</div>

@@ -223,6 +223,9 @@ namespace DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SkillId"));
 
+                    b.Property<string>("SkillImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("SkillStatus")
                         .HasColumnType("bit");
 

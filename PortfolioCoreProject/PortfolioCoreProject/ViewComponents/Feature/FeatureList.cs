@@ -8,7 +8,12 @@ namespace PortfolioCoreProject.ViewComponents.Feature
 {
 	public class FeatureList : ViewComponent
 	{
-		private readonly IFeatureService _featureService = new FeatureManager(new EfFeatureDal());
+		private readonly IFeatureService _featureService;
+
+        public FeatureList(IFeatureService featureService)
+        {
+            _featureService = featureService;
+        }
 
         public IViewComponentResult Invoke()
 		{

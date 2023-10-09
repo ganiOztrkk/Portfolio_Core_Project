@@ -8,7 +8,12 @@ namespace PortfolioCoreProject.ViewComponents.Service
 {
 	public class ServiceList : ViewComponent
 	{
-        private readonly IServiceService _serviceService = new ServiceManager(new EfServiceDal());
+        private readonly IServiceService _serviceService;
+
+        public ServiceList(IServiceService serviceService)
+        {
+            _serviceService = serviceService;
+        }
 
         public IViewComponentResult Invoke()
         {

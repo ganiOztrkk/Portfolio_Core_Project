@@ -1,0 +1,19 @@
+﻿
+<!DOCTYPE html>
+<html>
+@await Html.PartialAsync("/Views/Admin/PartialHead.cshtml") 
+<body>
+    @await Html.PartialAsync("/Views/Admin/PartialSideBar.cshtml")
+    <div class="main-content" id="panel">
+        @await Html.PartialAsync("/Views/Admin/PartialNavBar.cshtml")
+        <div class="container-fluid mt--6">
+            <div class="row">
+                <div class="col">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+    @await Html.PartialAsync("/Views/Admin/PartialScripts.cshtml")
+</body>
+</html>

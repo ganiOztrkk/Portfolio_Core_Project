@@ -17,3 +17,4 @@
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/BusinessLayer/obj/Debug/net7.0/BusinessLayer.pdb
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/BusinessLayer/obj/Debug/net7.0/BusinessLayer.genruntimeconfig.cache
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/BusinessLayer/obj/Debug/net7.0/ref/BusinessLayer.dll
+/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/BusinessLayer/obj/Debug/net7.0/BusinessLayer.sourcelink.json

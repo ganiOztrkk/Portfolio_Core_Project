@@ -12,7 +12,12 @@ namespace PortfolioCoreProject.Controllers
 {
     public class DefaultController : Controller
     {
-        private readonly IMessageService _messageService = new MessageManager(new EfMessageDal());
+        private readonly IMessageService _messageService;
+
+        public DefaultController(IMessageService messageService)
+        {
+            _messageService = messageService;
+        }
 
         public IActionResult Index()
         {
