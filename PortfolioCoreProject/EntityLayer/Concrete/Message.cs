@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EntityLayer.Concrete
 {
-	public class Message
-	{
+	public class Message : IEntity
+    {
         [Key]
         public int MessageId { get; set; }
         public string? Name { get; set; }

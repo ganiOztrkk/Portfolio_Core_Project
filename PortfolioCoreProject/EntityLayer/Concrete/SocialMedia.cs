@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EntityLayer.Concrete
 {
-	public class SocialMedia
-	{
+	public class SocialMedia : IEntity
+    {
         [Key]
         public int SocialMediaId { get; set; }
         public string? Name { get; set; }

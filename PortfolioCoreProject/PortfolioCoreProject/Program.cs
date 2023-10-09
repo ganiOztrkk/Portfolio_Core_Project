@@ -1,10 +1,39 @@
-﻿using DataAccessLayer.Concrete;
-using Microsoft.EntityFrameworkCore;
+﻿using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
+using DataAccessLayer.Abstract;
+using DataAccessLayer.EntityFramework;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//builder.Services.AddScoped<IAboutService, AboutManager>();
+//builder.Services.AddScoped<IAboutDal, EfAboutDal>();
+
+//builder.Services.AddScoped<IContactService, ContactManager>();
+//builder.Services.AddScoped<IExperienceDal, EfExperienceDal>();
+
+//builder.Services.AddScoped<IFeatureService, FeatureManager>();
+//builder.Services.AddScoped<IFeatureDal, EfFeatureDal>();
+
+//builder.Services.AddScoped<IMessageService, MessageManager>();
+//builder.Services.AddScoped<IMessageDal, EfMessageDal>();
+
+//builder.Services.AddScoped<IPortfolioService, PortfolioManager>();
+//builder.Services.AddScoped<IPortfolioDal, EfPortfolioDal>();
+
+//builder.Services.AddScoped<IServiceService, ServiceManager>();
+//builder.Services.AddScoped<IServiceDal, EfServiceDal>();
+
+//builder.Services.AddScoped<ISkillService, SkillManager>();
+//builder.Services.AddScoped<ISkillDal, EfSkillDal>();
+
+//builder.Services.AddScoped<ISocialMediaService, SocialMediaManager>();
+//builder.Services.AddScoped<ISocialMediaDal, EfSocialMediaDal>();
+
+//builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
+//builder.Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
 
 var app = builder.Build();
 
@@ -25,7 +54,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Default}/{action=Index}/{id?}");
 
 app.Run();
 

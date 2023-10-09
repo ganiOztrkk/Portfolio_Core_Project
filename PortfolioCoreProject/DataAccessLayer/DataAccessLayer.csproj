@@ -8,9 +8,15 @@
 
   <ItemGroup>
     <None Remove="Concrete\" />
+    <None Remove="Abstract\" />
+    <None Remove="Repository\" />
+    <None Remove="EntityFramework\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Concrete\" />
+    <Folder Include="Abstract\" />
+    <Folder Include="Repository\" />
+    <Folder Include="EntityFramework\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />

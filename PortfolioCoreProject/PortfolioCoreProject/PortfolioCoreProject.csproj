@@ -31,4 +31,46 @@
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Default\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\Feature\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\FeatureList\" />
+    <None Remove="ViewComponents\About\" />
+    <None Remove="Views\Shared\Components\AboutList\" />
+    <None Remove="ViewComponents\Service\" />
+    <None Remove="Views\Shared\Components\ServiceList\" />
+    <None Remove="ViewComponents\Skill\" />
+    <None Remove="Views\Shared\Components\SkillList\" />
+    <None Remove="ViewComponents\Portfolio\" />
+    <None Remove="Views\Shared\Components\PortfolioList\" />
+    <None Remove="ViewComponents\Experience\" />
+    <None Remove="Views\Shared\Components\ExperienceList\" />
+    <None Remove="ViewComponents\Testimonial\" />
+    <None Remove="Views\Shared\Components\TestimonialList\" />
+    <None Remove="ViewComponents\Contact\" />
+    <None Remove="Views\Shared\Components\ContactDetails\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Default\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\Feature\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\FeatureList\" />
+    <Folder Include="ViewComponents\About\" />
+    <Folder Include="Views\Shared\Components\AboutList\" />
+    <Folder Include="ViewComponents\Service\" />
+    <Folder Include="Views\Shared\Components\ServiceList\" />
+    <Folder Include="ViewComponents\Skill\" />
+    <Folder Include="Views\Shared\Components\SkillList\" />
+    <Folder Include="ViewComponents\Portfolio\" />
+    <Folder Include="Views\Shared\Components\PortfolioList\" />
+    <Folder Include="ViewComponents\Experience\" />
+    <Folder Include="Views\Shared\Components\ExperienceList\" />
+    <Folder Include="ViewComponents\Testimonial\" />
+    <Folder Include="Views\Shared\Components\TestimonialList\" />
+    <Folder Include="ViewComponents\Contact\" />
+    <Folder Include="Views\Shared\Components\ContactDetails\" />
+  </ItemGroup>
 </Project>

@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EntityLayer.Concrete
 {
-	public class Feature
-	{
+	public class Feature : IEntity
+    {
         [Key]
         public int FeatureId { get; set; }
         public string? Header { get; set; }
