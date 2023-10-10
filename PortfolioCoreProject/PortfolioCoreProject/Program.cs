@@ -41,6 +41,12 @@ builder.Services.AddScoped<ISocialMediaDal, EfSocialMediaDal>();
 builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
 builder.Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
 
+builder.Services.AddScoped<IUserService, UserManager>();
+builder.Services.AddScoped<IUserDal, EfUserDal>();
+
+builder.Services.AddScoped<IUserMessageService, UserMessageManager>();
+builder.Services.AddScoped<IUserMessageDal, EfUserMessageDal>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -61,6 +67,8 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Portfolio}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Portfolio}/{action=Index}/{id?}");
 
 app.Run();
-

@@ -1,0 +1,25 @@
+﻿@model Contact
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="container">
+    <form method="post" asp-action="Index" asp-controller="Contact">
+        <input type="hidden" asp-for="ContactId" />
+        <input type="hidden" asp-for="ContactStatus" />
+        <label style="color: white">Title</label>
+        <input type="text" class="form-control" asp-for="Title" />
+        <br />
+        <label>Description</label>
+        <input type="text" class="form-control" asp-for="Description" />
+        <br />
+        <label>Mail</label>
+        <input type="text" class="form-control" asp-for="Mail" />
+        <br />
+        <label>Phone</label>
+        <input type="text" class="form-control" asp-for="Phone" />
+        <br />
+        <button class="btn btn-warning mb-3">Update</button>
+    </form>
+</div>
