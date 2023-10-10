@@ -1,34 +1,35 @@
 ﻿<Properties StartupConfiguration="{A6072608-8EFA-41D9-ABE3-9E65042C9C71}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioCoreProject/Controllers/ExperienceController.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioCoreProject/Controllers/ServiceController.cs">
     <Files>
-      <File FileName="PortfolioCoreProject/Views/Experience/Index.cshtml" Line="34" Column="29" />
-      <File FileName="PortfolioCoreProject/Controllers/ExperienceController.cs" Line="12" Column="64" />
+      <File FileName="PortfolioCoreProject/Controllers/ServiceController.cs" Line="36" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PortfolioCoreProject" expanded="True">
+            <Node name="DataAccessLayer" expanded="True">
+              <Node name="Repository" expanded="True" />
+            </Node>
             <Node name="PortfolioCoreProject">
-              <Node name="Controllers" expanded="True">
-                <Node name="ExperienceController.cs" selected="True" />
+              <Node name="Controllers">
+                <Node name="ServiceController.cs" selected="True" />
               </Node>
               <Node name="Views">
-                <Node name="Experience" expanded="True" />
+                <Node name="Admin" expanded="True" />
+                <Node name="Service" expanded="True" />
+                <Node name="Skill" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

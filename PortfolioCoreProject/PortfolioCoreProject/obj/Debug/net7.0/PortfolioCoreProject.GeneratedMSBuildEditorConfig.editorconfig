@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Admin/PartialHead.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbEhlYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,12 +52,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9TZW5kTWVzc2FnZVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Experience/AddExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZXJpZW5jZS9BZGRFeHBlcmllbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Experience/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZXJpZW5jZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Experience/UpdateExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZXJpZW5jZS9VcGRhdGVFeHBlcmllbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Feature/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVhdHVyZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Portfolio/AddPortfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbGlvL0FkZFBvcnRmb2xpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Portfolio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbGlvL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Portfolio/UpdatePortfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbGlvL1VwZGF0ZVBvcnRmb2xpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Service/AddService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VydmljZS9BZGRTZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VydmljZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Service/UpdateService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VydmljZS9VcGRhdGVTZXJ2aWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/Views/Shared/Components/AboutList/Default.cshtml]

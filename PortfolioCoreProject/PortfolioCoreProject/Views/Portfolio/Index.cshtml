@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Portfolio>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="row">
+    <div class="col">
+        <div class="card bg-default shadow">
+            <div class="card-header bg-transparent border-0">
+                <h3 class="text-white mb-0">Portfolio List Table</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table align-items-center table-dark table-flush">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col" class="sort" data-sort="name">Tech</th>
+                            <th scope="col" class="sort" data-sort="name">Project</th>
+                            <th scope="col" class="sort" data-sort="budget">Image</th>
+                            <th scope="col" class="sort" data-sort="status">Completion</th>
+                            <th scope="col" class="sort" data-sort="status">Delete</th>
+                            <th scope="col" class="sort" data-sort="status">Update</th>
+                            <th scope="col" class="sort" data-sort="status">Passive</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <a href="#" class="avatar rounded-circle mr-3">
+                                            <img alt="Image placeholder" src="@item.TechImageUrl">
+                                        </a>
+                                    </div>
+                                </th>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <div class="media-body">
+                                            <span class="name mb-0 text-sm">@item.Name</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <img alt="Image placeholder" style="width:175px; height:75px;" src="@item.ImageUrl">
+                                    </div>
+                                </th>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <span class="completion mr-2">@item.Completion%</span>
+                                        <div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="@item.Completion" aria-valuemin="0" aria-valuemax="100" style="width: @item.Completion%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><a href="/Portfolio/DeletePortfolio/@item.PortfolioId" class="btn btn-sm btn-danger">Delete</a></td>
+                                <td><a href="/Portfolio/UpdatePortfolio/@item.PortfolioId" class="btn btn-sm btn-warning">Update</a></td>
+                                <td><a href="/Portfolio/PassivePortfolio/@item.PortfolioId" class="btn btn-sm btn-primary">Passive</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <a href="/Portfolio/AddPortfolio/" class="btn btn-primary mb-2">New Portfolio Item</a>
+    </div>
+</div>

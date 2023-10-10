@@ -1,5 +1,32 @@
-﻿
+﻿@model Feature
+
 @{
     ViewData["Title"] = "Index";
     Layout = "_AdminLayout";
 }
+
+<div class="container">
+    <form method="post" asp-action="Index" asp-controller="Feature">
+    <input type="hidden" asp-for="FeatureId" />
+    <input type="hidden" asp-for="FeatureStatus" />
+    <label style="color: white">Shout Out!</label>
+    <input type="text" class="form-control" asp-for="Header" required />
+    <br />
+    <label>Introduce</label>
+    <input type="text" class="form-control" asp-for="Name" required />
+    <br />
+    <label>Title</label>
+    <input type="text" class="form-control" asp-for="Title" required />
+    <br />
+    <label>Github Url</label>
+    <input type="text" class="form-control" asp-for="Github"/>
+    <br />
+    <label>Linkedin Url</label>
+    <input type="text" class="form-control" asp-for="Linkedin"/>
+    <br />
+    <label>Medium Url</label>
+    <input type="text" class="form-control" asp-for="Medium"/>
+    <br />
+    <button class="btn btn-warning mb-3">Update</button>
+    </form>
+</div>

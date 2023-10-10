@@ -1,0 +1,36 @@
+﻿@model About
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_AdminLayout";
+}
+
+<div class="container">
+    <form method="post" asp-action="Index" asp-controller="About">
+        <input type="hidden" asp-for="AboutId" />
+        <input type="hidden" asp-for="AboutStatus" />
+
+        <label style="color: white">Title</label>
+        <input type="text" class="form-control" asp-for="Title"/>
+        <br />
+        <label>Description</label>
+        <input type="text" class="form-control" asp-for="Description"/>
+        <br />
+        <label>Age</label>
+        <input type="text" class="form-control" asp-for="Age"/>
+        <br />
+        <label>Mail</label>
+        <input type="text" class="form-control" asp-for="Mail"/>
+        <br />
+        <label>Phone Number</label>
+        <input type="text" class="form-control" asp-for="Phone"/>
+        <br />
+        <label>Address</label>
+        <input type="text" class="form-control" asp-for="Address"/>
+        <br />
+        <label>Image Url</label>
+        <input type="text" class="form-control" asp-for="ImageUrl"/>
+        <br />
+        <button class="btn btn-warning mb-3">Update</button>
+    </form>
+</div>

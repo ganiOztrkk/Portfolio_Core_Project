@@ -8,6 +8,9 @@
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/bin/Debug/net7.0/PortfolioCoreProject.pdb
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/bin/Debug/net7.0/Azure.Core.dll
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/bin/Debug/net7.0/Azure.Identity.dll
+/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/bin/Debug/net7.0/FluentValidation.dll
+/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/bin/Debug/net7.0/Humanizer.dll
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Razor.Language.dll
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
@@ -238,6 +241,7 @@
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/obj/Debug/net7.0/PortfolioCoreProject.AssemblyInfoInputs.cache
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/obj/Debug/net7.0/PortfolioCoreProject.AssemblyInfo.cs
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/obj/Debug/net7.0/PortfolioCoreProject.csproj.CoreCompileInputs.cache
+/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/obj/Debug/net7.0/PortfolioCoreProject.MvcApplicationPartsAssemblyInfo.cs
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/obj/Debug/net7.0/PortfolioCoreProject.MvcApplicationPartsAssemblyInfo.cache
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/obj/Debug/net7.0/PortfolioCoreProject.RazorAssemblyInfo.cache
 /Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/obj/Debug/net7.0/PortfolioCoreProject.RazorAssemblyInfo.cs

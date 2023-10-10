@@ -20,6 +20,8 @@ namespace PortfolioCoreProject.ViewComponents.Feature
 			var values = _featureService.GetList().Where(x => x.FeatureStatus == true);
 			return View(values);
 		}
+
+
 	}
 }
 

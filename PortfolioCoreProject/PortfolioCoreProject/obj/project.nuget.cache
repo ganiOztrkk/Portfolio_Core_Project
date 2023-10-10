@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "K5ShwsurxpHdEEvEKN5M4i+9RT34XBj7KyGCgWYCvQ1CUmY8vXE8dXTvDit83LIfLq6FxBjUkaObBw5N2ozs9w==",
+  "dgSpecHash": "5YtqW0QpyZ8bZbi3MBGcT8FzxAwDlHQYIqICAD7p7aX4HwqbZTFOzklYqWKa6pi+AHpX++Q2RyDZsSxU8YZvrQ==",
   "success": true,
   "projectFilePath": "/Users/gani/Desktop/Github/Portfolio_Core_Project/PortfolioCoreProject/PortfolioCoreProject/PortfolioCoreProject.csproj",
   "expectedPackageFiles": [
     "/Users/gani/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/gani/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
+    "/Users/gani/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512",
+    "/Users/gani/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/gani/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.7.1/fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "/Users/gani/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/gani/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/gani/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",

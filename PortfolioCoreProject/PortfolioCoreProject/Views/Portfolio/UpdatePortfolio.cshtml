@@ -1,0 +1,25 @@
+﻿@model Portfolio
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="container">
+    <form method="post" asp-action="UpdatePortfolio" asp-controller="Portfolio">
+        <input type="hidden" asp-for="PortfolioId" />
+        <input type="hidden" asp-for="PortfolioStatus" />
+        <label style="color:white">Project Name</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <br />
+        <label>Project Image</label>
+        <input type="text" asp-for="ImageUrl" class="form-control" />
+        <br />
+        <label>Project Tech Image</label>
+        <input type="text" asp-for="TechImageUrl" class="form-control" />
+        <br />
+        <label>Completion</label>
+        <input type="number" max="100" min="0" asp-for="Completion" class="form-control" />
+        <br />
+        <button class="btn btn-success">Update</button>
+    </form>
+</div>

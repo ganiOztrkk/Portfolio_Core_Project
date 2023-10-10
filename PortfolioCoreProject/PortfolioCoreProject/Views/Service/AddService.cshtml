@@ -1,0 +1,19 @@
+﻿@model Service
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="container">
+    <form method="post" asp-controller="Service" asp-action="AddService">
+
+        <label style="color: white">Service Title</label>
+        <input class="form-control" type="text" asp-for="Title" />
+        <br />
+
+        <label>Service Image Url</label>
+        <input class="form-control" type="text" asp-for="ImageUrl" />
+        <br />
+
+        <button class="btn btn-success">Add</button>
+    </form>
+</div>

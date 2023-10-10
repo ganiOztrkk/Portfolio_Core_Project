@@ -1,0 +1,23 @@
+﻿@model Experience
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="container">
+    <form method="post" asp-controller="Experience" asp-action="AddExperience">
+        <label style="color: white">Name</label>
+        <input type="text" class="form-control" asp-for="Name" required />
+        <br />
+        <label>Date</label>
+        <input type="text" class="form-control" asp-for="Date" required />
+        <br />
+        <label>Description</label>
+        <input type="text" class="form-control" asp-for="Description" required />
+        <br />
+        <label>Image Url</label>
+        <input type="text" class="form-control" asp-for="ImageUrl" required />
+        <br />
+        <button class="btn btn-success">Add New Experience</button>
+        <br />
+    </form>
+</div>

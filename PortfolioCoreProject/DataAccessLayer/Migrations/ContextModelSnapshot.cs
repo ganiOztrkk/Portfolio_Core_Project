@@ -126,7 +126,16 @@ namespace DataAccessLayer.Migrations
                     b.Property<bool>("FeatureStatus")
                         .HasColumnType("bit");
 
+                    b.Property<string>("Github")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Header")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Linkedin")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Medium")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -179,6 +188,9 @@ namespace DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PortfolioId"));
 
+                    b.Property<string>("Completion")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
@@ -187,6 +199,9 @@ namespace DataAccessLayer.Migrations
 
                     b.Property<bool>("PortfolioStatus")
                         .HasColumnType("bit");
+
+                    b.Property<string>("TechImageUrl")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("PortfolioId");
 
