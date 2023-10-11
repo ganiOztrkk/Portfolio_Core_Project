@@ -2,14 +2,23 @@
 using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<Context>();
+builder.Services.AddIdentity<AppUser, AppUserRole>()
+        .AddEntityFrameworkStores<Context>()
+        .AddDefaultTokenProviders();
+
 builder.Services.AddTransient<PortfolioValidator>();
+builder.Services.AddScoped<AppUser>();
 
 builder.Services.AddScoped<IAboutService, AboutManager>();
 builder.Services.AddScoped<IAboutDal, EfAboutDal>();
@@ -47,6 +56,11 @@ builder.Services.AddScoped<IUserDal, EfUserDal>();
 builder.Services.AddScoped<IUserMessageService, UserMessageManager>();
 builder.Services.AddScoped<IUserMessageDal, EfUserMessageDal>();
 
+//builder.Services.AddAuthentication().AddCookie(opt =>
+//{
+//    opt.LoginPath = "User/Login/Index";
+//});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -62,6 +76,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

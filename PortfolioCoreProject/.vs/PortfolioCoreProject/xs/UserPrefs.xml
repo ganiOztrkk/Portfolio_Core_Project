@@ -1,27 +1,27 @@
 ﻿<Properties StartupConfiguration="{A6072608-8EFA-41D9-ABE3-9E65042C9C71}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioCoreProject/Controllers/ServiceController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioCoreProject/Areas/User/Views/Default/Index.cshtml">
     <Files>
-      <File FileName="PortfolioCoreProject/Controllers/ServiceController.cs" Line="36" Column="46" />
+      <File FileName="PortfolioCoreProject/Areas/User/Views/Default/Index.cshtml" Line="16" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PortfolioCoreProject" expanded="True">
-            <Node name="DataAccessLayer" expanded="True">
-              <Node name="Repository" expanded="True" />
-            </Node>
+          <Node name="PortfolioCoreProject">
             <Node name="PortfolioCoreProject">
-              <Node name="Controllers">
-                <Node name="ServiceController.cs" selected="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="User" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Default" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
-              <Node name="Views">
-                <Node name="Admin" expanded="True" />
-                <Node name="Service" expanded="True" />
-                <Node name="Skill" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="skydash" expanded="True" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -29,7 +29,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>

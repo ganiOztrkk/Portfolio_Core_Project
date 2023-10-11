@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace DataAccessLayer.Concrete
 {
-	public class Context : DbContext
+	public class Context : IdentityDbContext<AppUser, AppUserRole, int>
 	{
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

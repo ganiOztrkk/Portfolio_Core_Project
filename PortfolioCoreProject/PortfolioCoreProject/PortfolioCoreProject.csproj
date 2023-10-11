@@ -22,6 +22,8 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.10" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.11" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
@@ -72,6 +74,8 @@
     <None Remove="Areas\User\Views\" />
     <None Remove="Areas\User\Data\" />
     <None Remove="Areas\User\Views\Default\" />
+    <None Remove="Areas\User\Views\Register\" />
+    <None Remove="Areas\User\Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
@@ -111,6 +115,8 @@
     <Folder Include="Areas\User\Views\" />
     <Folder Include="Areas\User\Data\" />
     <Folder Include="Areas\User\Views\Default\" />
+    <Folder Include="Areas\User\Views\Register\" />
+    <Folder Include="Areas\User\Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\argon-dashboard-master\.github\workflows\main.yml" />
