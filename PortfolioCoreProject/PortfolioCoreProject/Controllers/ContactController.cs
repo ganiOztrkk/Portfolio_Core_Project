@@ -31,6 +31,7 @@ namespace PortfolioCoreProject.Controllers
             _contactService.Update(contact);
             return RedirectToAction("Index");
         }
+
     }
 }
 

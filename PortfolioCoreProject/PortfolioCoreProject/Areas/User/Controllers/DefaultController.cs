@@ -12,6 +12,7 @@ namespace PortfolioCoreProject.Areas.User.Controllers
 {
     [Area("User")]
     [Authorize]
+    [Route("/User/[controller]/[action]")]
     public class DefaultController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
@@ -39,7 +40,11 @@ namespace PortfolioCoreProject.Areas.User.Controllers
             user.UserName = userUpdateVM.Username;
             user.Email = userUpdateVM.Email;
             user.PhoneNumber = userUpdateVM.Phone;
-
+            var result = await _userManager.UpdateAsync(user);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Index");
+            }
             return View();
         }
     }

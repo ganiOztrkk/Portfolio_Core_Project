@@ -5,7 +5,10 @@ using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -56,10 +59,26 @@ builder.Services.AddScoped<IUserDal, EfUserDal>();
 builder.Services.AddScoped<IUserMessageService, UserMessageManager>();
 builder.Services.AddScoped<IUserMessageDal, EfUserMessageDal>();
 
-//builder.Services.AddAuthentication().AddCookie(opt =>
-//{
-//    opt.LoginPath = "User/Login/Index";
-//});
+builder.Services.AddMvc(config =>
+{
+    var policy = new AuthorizationPolicyBuilder()
+                     .RequireAuthenticatedUser()
+                        .Build();
+    config.Filters.Add(new AuthorizeFilter(policy));
+});
+
+builder.Services.ConfigureApplicationCookie(opt =>
+{
+    opt.Cookie.HttpOnly = true;
+    opt.LoginPath = "/User/Login/Index/";
+    opt.LogoutPath = "/User/Login/Logout/";
+});
+
+//builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+//    .AddCookie(x =>
+//    {
+//        x.LoginPath = "///";
+//    }); // identity kullanmıyor olsaydık.
 
 var app = builder.Build();
 

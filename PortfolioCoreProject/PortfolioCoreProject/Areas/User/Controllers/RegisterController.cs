@@ -4,13 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using BusinessLayer.Abstract;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PortfolioCoreProject.Areas.User.Models;
 
 namespace PortfolioCoreProject.Areas.User.Controllers
 {
+    [AllowAnonymous]
     [Area("User")]
+    [Route("User/[controller]/[action]")]
+
     public class RegisterController : Controller
     {
         private readonly UserManager<AppUser> _userManeger;

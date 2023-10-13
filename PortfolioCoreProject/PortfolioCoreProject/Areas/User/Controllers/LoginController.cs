@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PortfolioCoreProject.Areas.User.Models;
@@ -11,7 +12,9 @@ using PortfolioCoreProject.Areas.User.Models;
 
 namespace PortfolioCoreProject.Areas.User.Controllers
 {
+    [AllowAnonymous]
     [Area("User")]
+    [Route("User/[controller]/[action]")]
     public class LoginController : Controller
     {
         private readonly SignInManager<AppUser> _signInManager;

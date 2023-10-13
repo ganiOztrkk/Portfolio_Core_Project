@@ -1,0 +1,23 @@
+﻿@model Message
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="container">
+        <input type="hidden" asp-for="MessageId" />
+        <input type="hidden" asp-for="MessageStatus" />
+        <label style="color: white">Name</label>
+        <input type="text" class="form-control" readonly asp-for="Name" required />
+        <br />
+        <label>Mail</label>
+        <input type="text" class="form-control" readonly asp-for="Mail" required />
+        <br />
+        <label>Date</label>
+        <input type="text" class="form-control" readonly asp-for="Date" required />
+        <br />
+        <label>Message</label>
+        <input type="text" class="form-control" readonly asp-for="Content" required />
+        <br />
+        <a asp-action="Inbox" class="btn btn-info">Go Back</a>
+        <br />
+</div>
