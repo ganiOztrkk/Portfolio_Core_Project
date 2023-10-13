@@ -25,14 +25,14 @@ namespace PortfolioCoreProject.Areas.User.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            var values = await _userManager.FindByNameAsync(User.Identity!.Name!);
             return View(values);
         }
 
         [HttpPost]
         public async Task<IActionResult> Index(UserUpdateVM userUpdateVM)
         {
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var user = await _userManager.FindByNameAsync(User.Identity!.Name!);
 
             user!.ImageUrl = userUpdateVM.ImageUrl;
             user.Name = userUpdateVM.Name;

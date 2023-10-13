@@ -1,47 +1,19 @@
-﻿<Properties StartupConfiguration="{A6072608-8EFA-41D9-ABE3-9E65042C9C71}|https">
-  <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioCoreProject/Areas/User/Controllers/DefaultController.cs">
-    <Files>
-      <File FileName="PortfolioCoreProject/Areas/User/Controllers/DefaultController.cs" Line="40" Column="45" />
-      <File FileName="PortfolioCoreProject/Areas/User/Views/Default/Index.cshtml" Line="27" Column="43" />
-      <File FileName="PortfolioCoreProject/Areas/User/Models/UserUpdateVM.cs" Line="13" Column="3" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="PortfolioCoreProject" expanded="True">
-            <Node name="PortfolioCoreProject" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="User" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Models" expanded="True" />
-                  <Node name="Views" expanded="True">
-                    <Node name="Default" expanded="True" />
-                    <Node name="Login" expanded="True" />
-                    <Node name="Register" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="skydash" expanded="True">
-                  <Node name="pages" expanded="True">
-                    <Node name="forms" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{1825E078-CE18-427C-8F9E-30A7FD2BE7D9}|https">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PortfolioCoreProject" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PortfolioProject__Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
 </Properties>
